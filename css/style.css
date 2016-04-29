@@ -1,0 +1,177 @@
+body {
+  background-color: #FFFFFF;
+  font-family: 'Roboto Slab', san-serif;
+}
+.container-fluid {
+  height: auto;
+  background-image: url(../img/head-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+.container-fluid .container {
+  margin: 0 auto;
+  z-index: 1;
+}
+.bg {
+  padding: 0;
+}
+header {
+  margin-top: 25px;
+  padding: 0 30px;
+  /*navigation menu*/
+  /*change language*/
+}
+header ul {
+  margin: 25px 0;
+  list-style-type: none;
+}
+header ul li {
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 40px;
+}
+header ul li a {
+  color: #111111;
+}
+header ul li a:hover,
+header ul li a:visited,
+header ul li a:active {
+  color: #111111;
+  text-decoration: none;
+  padding-bottom: 19px;
+  border-bottom: solid 4px #274074;
+}
+header .leng {
+  margin-top: 25px;
+}
+header .leng a {
+  color: #777777;
+  text-decoration: none;
+}
+header .leng a:hover,
+header .leng a:active {
+  color: #111111;
+  border-bottom: dotted 1px #111111;
+}
+nav {
+  height: 60px;
+}
+nav .nav-header {
+  padding: 0;
+}
+.title {
+  background-color: #F7F6F6;
+  margin-top: 47px;
+  margin-bottom: 39px;
+  padding: 30px 0 25px 0;
+}
+.title h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 38px;
+}
+.title h1 span {
+  font-size: 15px;
+}
+.title h1 #line-1,
+.title h1 #line-2 {
+  display: inline-block;
+  width: 130px;
+  height: 1px;
+  margin: 6px 10px 0;
+  background-color: #777777;
+  vertical-align: middle;
+}
+/*banner photo*/
+.img {
+  padding: 0;
+  width: 120%;
+  position: relative;
+  left: -6%;
+}
+.info {
+  position: relative;
+  top: -40px;
+  z-index: 3;
+}
+.info .insurance {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  position: relative;
+  background-color: #F7F6F6;
+  border-bottom: solid 4px #dfdbdb;
+  /* border-top triangle*/
+}
+.info .insurance::after {
+  content: '';
+  position: absolute;
+  left: 37.5%;
+  top: -20px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #F7F6F6;
+}
+.info .insurance h2 {
+  color: #274074;
+  font-size: 30px;
+  margin-top: 0;
+}
+.info .insurance .btn {
+  border-radius: 0;
+  background-color: #274074;
+  margin-top: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 19px;
+}
+.info .insurance p {
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+.info .insurance .name {
+  padding: 0 30px;
+  border-left: solid 2px #dfdbdb;
+}
+.codex {
+  margin-top: 45px;
+  margin-bottom: 95px;
+  /*line decoration*/
+}
+.codex h3 {
+  color: #274074;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+.codex hr {
+  height: 2px;
+  margin-bottom: 45px;
+  border: 0;
+  background-color: #F7F6F6;
+  text-align: center;
+}
+.codex hr::after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -13px;
+  width: 120px;
+  height: 4px;
+  background: #274074;
+}
+.codex ul {
+  list-style-type: square;
+  color: #274074;
+}
+.codex ul li {
+  margin: 10px 0;
+}
+.codex ul li span {
+  color: #111111;
+}
+.codex p {
+  margin-top: 10px;
+}
